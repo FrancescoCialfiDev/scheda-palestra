@@ -1,0 +1,23 @@
+{
+  "name": "scheda-palestra",
+  "version": "1.0.0",
+  "description": "Web App per la gestione di schede di allenamento in palestra",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancescoCialfiDev/scheda-palestra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancescoCialfiDev/scheda-palestra/issues"
+  },
+  "homepage": "https://github.com/FrancescoCialfiDev/scheda-palestra#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
