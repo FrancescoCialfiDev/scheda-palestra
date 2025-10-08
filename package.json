@@ -2,9 +2,11 @@
   "name": "scheda-palestra",
   "version": "1.0.0",
   "description": "Web App per la gestione di schede di allenamento in palestra",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node --env-file=.env --watch server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/FrancescoCialfiDev/scheda-palestra#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }
