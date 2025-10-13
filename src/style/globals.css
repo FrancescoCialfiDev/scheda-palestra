@@ -1,0 +1,304 @@
+/* DEFAULT STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2933;
+  line-height: 1.5;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.app-header__content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.app-header__brand {
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.app-header__nav {
+  display: flex;
+  gap: 12px;
+}
+
+.app-header__link {
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 24px 16px;
+}
+
+.app-footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+main.home {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: stretch;
+}
+
+main.home > h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+main.home section {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+main.home form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+main.home label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.95rem;
+}
+
+main.home input,
+main.home textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f9fafb;
+}
+
+main.home input:focus,
+main.home textarea:focus {
+  outline: 2px solid #2563eb;
+  background: #ffffff;
+}
+
+main.home button {
+  align-self: flex-start;
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+main.home button:hover {
+  background: #1d4ed8;
+}
+
+main.home ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  width: 100%;
+}
+
+main.home li {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #ffffff;
+  width: 100%;
+}
+
+main.home li div {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+main.home li button {
+  background: #111827;
+  padding: 8px 12px;
+}
+
+main.home li button:last-of-type {
+  background: #dc2626;
+}
+
+main.home small {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.sheet-detail {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.sheet-detail header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.sheet-detail header a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.sheet-detail header a:hover {
+  text-decoration: underline;
+}
+
+.sheet-detail section {
+  background: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.exercise-form,
+.exercise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.exercise-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.exercise-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd2d9;
+  background: #f9fafb;
+}
+
+.exercise-form input:focus {
+  outline: 2px solid #2563eb;
+  background: #ffffff;
+}
+
+.exercise-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #ffffff;
+  width: 100%;
+}
+
+.exercise-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.exercise-actions button {
+  background: #111827;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.exercise-actions button:hover {
+  background: #1f2937;
+}
+
+.exercise-actions button:last-of-type {
+  background: #dc2626;
+}
+
+.exercise-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.exercise-progress p:first-of-type {
+  font-weight: 600;
+}
